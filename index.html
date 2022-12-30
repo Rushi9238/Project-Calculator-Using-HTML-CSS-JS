@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="mainDiv">
+        <div class="topdiv">
+            <div onclick="cleared()" id="clearcal" class="clear">AC</div>
+            <div id="displaynum" class="display"></div>
+        <button onclick="back()" id="idback-btn" class="back-btn"><img src="back-btn.png" alt=""></button>
+        </div>
+        <div class="bottomdiv">
+            <div onclick="getvalue(event)" id="seven"  class=" number">7</div>
+            <div onclick="getvalue(event)" id="eight" class=" number">8</div>
+            <div onclick="getvalue(event)" id="nine" class=" number">9</div>
+            <div onclick="getvalue(event)" id="multiplection" class=" sign">*</div>
+            <div onclick="getvalue(event)" id="four" class=" number">4</div>
+            <div onclick="getvalue(event)" id="five" class=" number">5</div>
+            <div onclick="getvalue(event)" id="six" class=" number">6</div>
+            <div onclick="getvalue(event)" id="divide" class=" sign">/</div>
+            <div onclick="getvalue(event)" id="one" class=" number">1</div>
+            <div onclick="getvalue(event)" id="two" class=" number">2</div>
+            <div onclick="getvalue(event)" id="three" class=" number">3</div>
+            <div onclick="getvalue(event)" id="plus" class=" sign">+</div>
+            <div onclick="getvalue(event)" id="dot" class=" number">.</div>
+            <div onclick="getvalue(event)" id="zero" class=" number">0</div>
+            <div onclick="value()" id="equals" class="equal">=</div>
+            <div onclick="getvalue(event)" id="negative" class=" sign">-</div>
+
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

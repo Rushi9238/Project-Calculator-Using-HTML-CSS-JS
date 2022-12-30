@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color:#26547b;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.mainDiv{
+/* border: 2px solid red; */
+background-color:#ec476c;
+height: 75%;
+width: 30%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+border-radius: 10px;
+
+}
+.topdiv{
+    /* border: 2px solid blue; */
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.clear {
+    /* border: 2px solid brown; */
+    background-color: #fed268;
+    color: gray;
+    border-radius: 14px;
+    height: 80%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    box-shadow: 0px 3px 6px black;
+    cursor: pointer;
+
+}
+.display{
+    /* border: 2px solid brown; */
+    color: white;
+    background-color:#26547b;
+    border-radius: 14px;
+    height: 80%;
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    box-shadow: inset 2px 2px 5px black;
+    font-size: 2rem;
+}
+button{
+    border: none;
+    outline: none;
+    background-color: #ec476c;
+}
+.back-btn{
+    /* border: 2px solid brown; */
+    /* background-color: #fed268; */
+  margin-right: 1rem;
+    height: 80%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+.back-btn img{
+    width: 2.7rem;
+}
+.bottomdiv{
+    /* border: 2px solid blue; */
+    height: 79%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+
+}
+.number,.sign,.equal{
+    /* border: 2px solid green; */
+    height: 18%;
+    width: 21%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.sign{
+    color: gray;
+    background-color: #fed268;
+    box-shadow: 0px 3px 8px #fed268;
+    font-size: 2rem;
+    font-weight: 900;
+
+}
+.number{
+    color: white;
+    box-shadow: 0px 4px 6px #26547b;
+    background-color:#26547b;
+
+}
+.equal{
+    color: gray;
+    background-color: #06d6a0;
+    box-shadow: 0px 4px 6px #06d6a0;
+    font-size: 2rem;
+    font-weight: 900;
+
+}
+@media only screen and (max-width:600px) {
+    .mainDiv{
+        width: 80%;
+    }
+}
+@media only screen and (min-width:600px) {
+    .mainDiv{
+        width: 80%;
+    }
+}
+@media only screen and (min-width:768px) {
+    .mainDiv{
+        width: 70%;
+    }
+}
+@media only screen and (min-width:992px) {
+    .mainDiv{
+        width: 70%;
+    }
+}
+@media only screen and (min-width:1350px) {
+    .mainDiv{
+        width: 40%;
+    }
+}
+/* @media only screen and (max-width:1350px) {
+    .mainDiv{
+        width: 70%;
+    }
+} */
